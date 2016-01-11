@@ -1,4 +1,4 @@
-// Gravy.sqf: Gravy animation for EQP project create in Particle Editor vitacite aka olke - in DAP s.t.a.l.k.e.r style 
+// Gravi.sqf: Gravy animation for EQP project create in Particle Editor vitacite aka olke - in DAP s.t.a.l.k.e.r style 
 _object = _this select 0;
  
 _gravi1 = "#particlesource" createVehicleLocal getPos _object;
