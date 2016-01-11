@@ -11,7 +11,7 @@ Installation:
 
 б) Create Folder Anomaly like /Exile.Altis/Anomaly
 
-в) Copy file  gravy.sqf , quest.sqf ,detect.sqf, and any anomaly sound like this https://yadi.sk/d/zWnh3GrLmnvb3 with name: anm.ogg in /Exile.Altis/Anomaly folder
+в) Copy file  gravi.sqf , quest.sqf ,detect.sqf, and any anomaly sound like this https://yadi.sk/d/zWnh3GrLmnvb3 with name: anm.ogg in /Exile.Altis/Anomaly folder
 
 г) Insert in you Desctription.ini link to ogg sound:
 
