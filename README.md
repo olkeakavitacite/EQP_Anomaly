@@ -15,21 +15,21 @@ Installation:
 
 г) Insert in you Desctription.ini link to ogg sound:
 
-class CfgSounds
-{
-	class anm
+	class CfgSounds
 	{
-		// how the sound is referred to in the editor (e.g. trigger effects)
-		name = "anm";
-		// filename, volume, pitch
-		sound[] = {"anomaly\anm.ogg", 1, 1};
-		titles[] = {};
+		class anm
+		{
+			// how the sound is referred to in the editor (e.g. trigger effects)
+			name = "anm";
+			// filename, volume, pitch
+			sound[] = {"anomaly\anm.ogg", 1, 1};
+			titles[] = {};
+		};
 	};
-};
 
 Step 5: Insert in you mission.sqf new sensors like
 
-class Sensors
+	class Sensors
 	{
 		items=2;
 		class Item0
