@@ -42,7 +42,7 @@ Step 5: Insert in you mission.sqf new sensors like
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="true";
-			expActiv="XC=[thistrigger,10]execvm ""anomaly\a3gravi.sqf""";
+			expActiv="XC=[thistrigger,10]execvm ""anomaly\a3gravy.sqf""";
 			class Effects
 			{
 			};
