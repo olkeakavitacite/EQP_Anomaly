@@ -1,12 +1,13 @@
 # EQP_Anomaly
 Exile RPG Stalker style project Credits Free for all use in Exilemod.com
-Installation:
-Need: pbomanager, notepad++ or farmanager
-Step 1: Unpack you mission file Exile.Altis.pbo use pbomanager
-Step 2: Create Folder Anomaly like /Exile.Altis/Anomaly
-Step 3: Copy file 
-gravy.sqf , quest.sqf ,detect.sqf, and any anomaly sound like this https://yadi.sk/d/zWnh3GrLmnvb3 with name: anm.ogg in /Exile.Altis/Anomaly folder.
-Step 4: Insert in you Desctription.ini link to ogg sound:
+Installation: 
+1) Soft Need: pbomanager, notepad++ or farmanager
+2) You need: 
+а) Unpack you mission file Exile.Altis.pbo use pbomanager
+б) Create Folder Anomaly like /Exile.Altis/Anomaly
+в) Copy file  gravy.sqf , quest.sqf ,detect.sqf, and any anomaly sound like this https://yadi.sk/d/zWnh3GrLmnvb3 with name: anm.ogg in /Exile.Altis/Anomaly folder.
+г) Insert in you Desctription.ini link to ogg sound:
+
 class CfgSounds
 {
 	class anm
@@ -20,6 +21,7 @@ class CfgSounds
 };
 
 Step 5: Insert in you mission.sqf new sensors like
+
 class Sensors
 	{
 		items=2;
@@ -56,7 +58,9 @@ class Sensors
 		};
 	};
 	
+	
 	Step 6: Change last 99 npc on you standart exile mission file like
+
 	class Item99
 		{
 			side="CIV";
@@ -76,5 +80,7 @@ class Sensors
 				};
 			};
 		};
-		
-		Step 8: Profit
+	}
+
+	
+	Step 7: Profit
