@@ -1,11 +1,18 @@
 # EQP_Anomaly
 Exile RPG Stalker style project Credits Free for all use in Exilemod.com
-Installation: 
+
+Installation:
+
 1) Soft Need: pbomanager, notepad++ or farmanager
+
 2) You need: 
+
 а) Unpack you mission file Exile.Altis.pbo use pbomanager
+
 б) Create Folder Anomaly like /Exile.Altis/Anomaly
-в) Copy file  gravy.sqf , quest.sqf ,detect.sqf, and any anomaly sound like this https://yadi.sk/d/zWnh3GrLmnvb3 with name: anm.ogg in /Exile.Altis/Anomaly folder.
+
+в) Copy file  gravy.sqf , quest.sqf ,detect.sqf, and any anomaly sound like this https://yadi.sk/d/zWnh3GrLmnvb3 with name: anm.ogg in /Exile.Altis/Anomaly folder
+
 г) Insert in you Desctription.ini link to ogg sound:
 
 class CfgSounds
