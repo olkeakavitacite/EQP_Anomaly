@@ -56,7 +56,7 @@ Step 5: Goto  class Item 99 in vanila Exilemod Altis map and change class Item99
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="true";
-			expActiv="XC=[thistrigger,10]execvm ""anomaly\a3gravi.sqf""";
+			expActiv="XC=[thistrigger,10]execvm ""anomaly\gravi.sqf""";
 			class Effects
 			{
 			};
