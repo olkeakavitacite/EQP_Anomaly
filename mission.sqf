@@ -38,7 +38,7 @@ class Item99
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="true";
-			expActiv="XC=[thistrigger,10]execvm ""anomaly\a3gravy.sqf""";
+			expActiv="XC=[thistrigger,10]execvm ""anomaly\gravy.sqf""";
 			class Effects
 			{
 			};
