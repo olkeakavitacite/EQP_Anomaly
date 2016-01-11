@@ -1,11 +1,9 @@
 // vitacite aka olke anomaly set quest
-private ["_user",  "_title", "_htext"];
-    
-_user = (_this select 1);
-_title  = "<t color='#ff0000' size='1.2' shadow='1' shadowColor='#000000' align='center'>NEW TASK:</t><br/><t color='#ffffff'>¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯<br/>";
+private ["_title", "_htext"];
+_title  = "<t color='#ff0000' size='1.2' shadow='1' shadowColor='#000000' align='center'> New task: Anomaly search quest: (+ 500 Exmoney and 50 Exp)</t><br/><t color='#ffffff'>¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯<br/>";
 playSound "anm";  
 
-_htext   = "I give you anomaly detector. Reseach anomaly and take you prize.";
+_htext   = "Hi, convicted. I'll give you anomaly detector. Find anomaly called Gravi study it and get reward."; 
 	hint parseText ( _title + _htext);
         uisleep 5;
  
