@@ -1,4 +1,4 @@
-# EQP_Anomaly
+# EQP_Anomaly ver 1.1. update 11.01.2016 22:06
 Exile RPG Stalker style project Credits Free for all use in Exilemod.com
 
 Installation:
