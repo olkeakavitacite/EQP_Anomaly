@@ -66,7 +66,7 @@ Step 5: Insert in you mission.sqf new sensors like
 	};
 	
 	
-	Step 6: Change last 99 npc on you standart exile mission file like
+Step 6: Change last 99 npc on you standart exile mission file like
 
 	class Item99
 		{
@@ -90,4 +90,4 @@ Step 5: Insert in you mission.sqf new sensors like
 	}
 
 	
-	Step 7: Profit
+Step 7: Profit
