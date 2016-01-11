@@ -27,14 +27,28 @@ Installation:
 		};
 	};
 
-Step 5: Insert in you mission.sqf new sensors like
+Step 5: Goto  class Item 99 in vanila Exilemod Altis map and change class Item99 like this:
 
+	class Item99
+		{
+		position[]={14642.1,0,16888.2};
+		azimut=135;
+		id=1;
+		side="CIV";
+		vehicle="C_Nikos";
+		leader=1;
+		skill=0.60000002;
+		init= "this addAction[""<t color='#068600'>Anomaly research quest</t>"",""anomaly\quest.sqf""];";
+		};
+	};
+	};
+	};
 	class Sensors
 	{
 		items=2;
 		class Item0
 		{
-			position[]={x,z,y}; //this Anomaly position you need change for you coords in Altis map.
+			position[]={14514.4,0,17005.1};
 			a=10;
 			b=10;
 			angle=14.143009;
@@ -42,14 +56,14 @@ Step 5: Insert in you mission.sqf new sensors like
 			interruptable=1;
 			age="UNKNOWN";
 			expCond="true";
-			expActiv="XC=[thistrigger,10]execvm ""anomaly\a3gravy.sqf""";
+			expActiv="XC=[thistrigger,10]execvm ""anomaly\a3gravi.sqf""";
 			class Effects
 			{
 			};
 		};
 		class Item1
 		{
-			position[]={x.z.y}; // this Anomaly sensor (detect you and you device) just copy coords in first sensor (Anomaly)
+			position[]={14514.4,0,17005.1};
 			a=30;
 			b=30;
 			activationBy="ANY";
@@ -63,31 +77,7 @@ Step 5: Insert in you mission.sqf new sensors like
 			{
 			};
 		};
-	};
-	
-	
-Step 6: Change last 99 npc on you standart exile mission file like
+	};	
 
-	class Item99
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={2078.137,6.739491,5558.2583};
-					azimut=135;
-					id=1;
-					side="CIV";
-					vehicle="C_Nikos";
-					leader=1;
-					skill=0.60000002;
-					init= "this addAction[""<t color='#068600'>Anomaly quest</t>"",""anomaly\quest.sqf""];";
-				};
-			};
-		};
-	}
 
-	
-Step 7: Profit
+
