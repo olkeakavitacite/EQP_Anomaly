@@ -1,4 +1,4 @@
-// vitacite aka olke anomaly detector
+// vitacite aka olke anomaly set quest
 private ["_user",  "_title", "_htext"];
     
 _user = (_this select 1);
