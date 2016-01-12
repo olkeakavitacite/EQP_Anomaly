@@ -1,4 +1,4 @@
-# EQP_Anomaly ver 1.1. update 11.01.2016 22:06
+# EQP_Anomaly ver 1.1. update 11.02.2016 22:06
 Exile RPG Stalker style project Credits Free for all use in Exilemod.com
 
 Installation:
@@ -64,8 +64,8 @@ Step 5: Goto  class Item 99 in vanila Exilemod Altis map and change class Item99
 		class Item1
 		{
 			position[]={14514.4,0,17005.1};
-			a=30;
-			b=30;
+			a=15;
+			b=15;
 			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
