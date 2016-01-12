@@ -1,4 +1,4 @@
-# EQP_Anomaly ver 1.102. update 11.02.2016 22:06
+# EQP_Anomaly ver 1.12. update 12.02.2016 23:13
 Exile RPG Stalker style project Credits Free for all use in Exilemod.com
 
 Installation:
@@ -79,5 +79,6 @@ Step 5: Goto  class Item 99 in vanila Exilemod Altis map and change class Item99
 		};
 	};	
 
+3) Download and install https://github.com/happydayz-enigma/Enigma_Exile_Custom and copy  Enigma_Exile_Custom.pbo in you @ExileServer/addons need for saving prize data in user database...
 
-
+Profit...
