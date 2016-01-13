@@ -1,7 +1,6 @@
 // vitacite aka olke detector anomaly and send money prize (tnx to bombajack for betatesting and Dizzturbed for his knowledge
 // for saving prize to database need use https://github.com/happydayz-enigma/Enigma_Exile_Custom  Enigma addon for Exile.
 // just copy Enigma_Exile_Custom.pbo in you @ExileServer/addons/ 
-
 private ["_title","_htext","_addpoptabs","_newPopTabs","_addrespect","_newScore"];
 
 _title  = "<t color='#ff0000' size='1.2' shadow='1' shadowColor='#000000' align='center'> You found an anomaly called Gravi : </t><br/><t color='#ffffff'>¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯<br/>";
@@ -32,9 +31,9 @@ if (_itemToLookFor in (uniformItems player)) then {
 			uisleep 1;			
 				["Success",["+50 Exp"]] call ExileClient_gui_notification_event_addNotification;		
 					player removeItem "MineDetector";
+			uisleep 1;			
+		                       	player addItem "Exile_Item_TreasureMap"; 
 			uisleep 5;
-		
-
 	} else {
 		playSound "anm";  
 		uisleep 5;
@@ -42,3 +41,4 @@ if (_itemToLookFor in (uniformItems player)) then {
 		hint parseText ( _title + _htext);
                 ["Whoops",[_htext]] call ExileClient_gui_notification_event_addNotification;
 	};
+
