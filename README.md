@@ -26,7 +26,7 @@ Installation:
 	   Arma3Server/Mpmission/Exile.Altis/EQP_Anomaly/snd/..
 	6) Change you description.ini file to ->
 
-// ....GO TO LINE -> allowFunctionsRecompile = 0;
+	// ....GO TO LINE -> allowFunctionsRecompile = 0;
 	////////////////////////////////////////  AND INSERT IF ANYWERE IN YOU NOT HAVE CfgSounds in DESCRIPTION
 	class CfgSounds
 	{
