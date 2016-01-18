@@ -74,11 +74,16 @@ And 3 stalker style anomlay Gravi, Meat Grinder and Fire the fluff..
 
 	7) Change you init.sqf file to ->
 	open (or create if need) you init.sqf and add to the top.
-
+        
+        // Show markers to locate npc on map 
+	USE_MARKER = true; 
 	// Set Anomaly Activity check 
 	SET_QUEST1 = FALSE;
 	SET_QUEST2 = FALSE;
 	SET_QUEST3 = FALSE;
+	// launch markers
+	_nul = execVM "EQP_Anomaly\search.sqf";
+	
 
 	8) Chage you mission.sqm  GOTO LINE 1034 
 				class Item99
