@@ -8,29 +8,29 @@ Quest Item:
 and sound pack file https://yadi.sk/d/f7NcLeHznHLcx
 
 CHANGE LOG 1.8 (18.01.2016)
-1)  Added check to the fact of taking the quest ( to avoid dupe by car );
-2)  Adding anomaly sound pack (not inside need download https://yadi.sk/d/f7NcLeHznHLcx;
-3)  Fixing small bug and folder arh;
-4)  Starting second quest brucnh;
-5)  Fixing quest balance;
+	1)  Added check to the fact of taking the quest ( to avoid dupe by car );
+	2)  Adding anomaly sound pack (not inside need download https://yadi.sk/d/f7NcLeHznHLcx;
+	3)  Fixing small bug and folder arh;
+	4)  Starting second quest brucnh;
+	5)  Fixing quest balance;
 
 Installation:
 
-1) Soft Need: pbomanager, notepad++ or farmanager
-2) You need: 
-
-	a) Unpack you mission file Exile.Altis.pbo use pbomanager
-	b) Create Folder Anomaly like /Exile.Altis/EQP_Anomaly
-3) Download MasterFolder.zip
-4) Unpack in Arma3Server/Mpmission/Exile.Altis/EQP_Anomaly/
-5) Download and unpack and sound pack file https://yadi.sk/d/f7NcLeHznHLcx to  Arma3Server/Mpmission/Exile.Altis/EQP_Anomaly/snd/..
-6) Change you description.ini file to ->
+	1) Soft Need: pbomanager, notepad++ or farmanager
+	2) You need: 
+		a) Unpack you mission file Exile.Altis.pbo use pbomanager
+		b) Create Folder Anomaly like /Exile.Altis/EQP_Anomaly
+	3) Download MasterFolder.zip
+	4) Unpack in Arma3Server/Mpmission/Exile.Altis/EQP_Anomaly/
+	5) Download and unpack and sound pack file https://yadi.sk/d/f7NcLeHznHLcx to  	
+	   Arma3Server/Mpmission/Exile.Altis/EQP_Anomaly/snd/..
+	6) Change you description.ini file to ->
 
 // ....GO TO LINE -> allowFunctionsRecompile = 0;
-////////////////////////////////////////  AND INSERT IF ANYWERE IN YOU NOT HAVE CfgSounds in DESCRIPTION
-class CfgSounds
-{
-/////// IF YOU HAVE CfgSound block INSERT this
+	////////////////////////////////////////  AND INSERT IF ANYWERE IN YOU NOT HAVE CfgSounds in DESCRIPTION
+	class CfgSounds
+	{
+	/////// IF YOU HAVE CfgSound block INSERT this
 	class anm
 	{
 		// how the sound is referred to in the editor (e.g. trigger effects)
@@ -72,17 +72,15 @@ class CfgSounds
 ////////////////////////////////////////  INSERT IF ANYWERE IN YOU NOT HAVE CfgSounds in DESCRIPTION
 // TO  #include "config.cpp"
 
-7) Change you init.sqf file to ->
-open (or create if need) you init.sqf and add to the top.
+	7) Change you init.sqf file to ->
+	open (or create if need) you init.sqf and add to the top.
 
-// Set Anomaly Activity check
-SET_QUEST1 = FALSE;
-SET_QUEST2 = FALSE;
-SET_QUEST3 = FALSE;
+	// Set Anomaly Activity check
+	SET_QUEST1 = FALSE;
+	SET_QUEST2 = FALSE;
+	SET_QUEST3 = FALSE;
 
-8) Chage you mission.sqm
-
-GOTO LINE 1034 
+8) Chage you mission.sqm  GOTO LINE 1034 
 				class Item99
 				{
 					position[]={13239.08,16.010651,11685.795};
@@ -99,19 +97,19 @@ GOTO LINE 1034
 // AND ADD AFTER LAST ;)
 // ------------------------------------------ START INSERT THIS CODE------------------------------------------------------------
 //TODO NPC BLOCK FOR ANOMALY ACTIVITY QUEST
-	class Vehicles
-	{
-		items=3;
-		class Item0
+		class Vehicles
 		{
-			position[]={14642.1,0,16888.2}; // Altis Airport safe zone trader Basil Obuhoiv
-			azimut=135;
-			id=1;
-			side="CIV";
-			vehicle="C_Nikos";
-			leader=1;
-			skill=0.60000002;
-			init= "this addAction[""<t color='#068600'>ANOMALY ACTIVITY QUEST</t>"",""EQP_Anomaly\quest.sqf""];";
+			items=3;
+			class Item0
+			{
+				position[]={14642.1,0,16888.2}; // Altis Airport safe zone trader Basil Obuhoiv
+				azimut=135;
+				id=1;
+				side="CIV";
+				vehicle="C_Nikos";
+				leader=1;
+				skill=0.60000002;
+				init= "this addAction[""<t color='#068600'>ANOMALY ACTIVITY QUEST</t>"",""EQP_Anomaly\quest.sqf""];";
 		};
 		class Item1
 		{
