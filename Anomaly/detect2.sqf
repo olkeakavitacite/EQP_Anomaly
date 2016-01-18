@@ -1,13 +1,13 @@
-// vitacite aka olke detector anomaly and send money prize
 private ["_title","_htext","_addpoptabs","_newPopTabs","_addrespect","_newScore"];
 
-_title  = "<t color='#ff0000' size='1.2' shadow='1' shadowColor='#000000' align='center'> You found an anomaly called Meat grinder : </t><br/><t color='#ffffff'>¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯<br/>";
-
+_title  = "<t color='#ff0000' size='1.2' shadow='1' shadowColor='#000000' align='center'> YOU FOUND AN ANOMALY MEATGRINDER: </t><br/><t color='#ffffff'>¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯<br/>";
 _itemToLookFor = "MineDetector";
 if (_itemToLookFor in (uniformItems player)) then {
-		playSound "anm";  
+		playSound "meat";  
+		playSound "meat";
+		playSound "meat"; 
 		uisleep 1;
-			_htext   = "You search Meat grinder anomaly, but not research. Mission failed!. Return to Ivan Demidov and talk to him";
+			_htext   = "You found an anomaly MEATGRINDER . But the detector seems broken. You need to find Ivan Demidov and tell him about the problems. ATTENTION AVAILABLE second branch : Stalkers . The task. Find stalkers and repair the detector . (in developing) ";
 			hint parseText ( _title + _htext);
 			_addrespect = -5;
 		    	_newScore = ExileClientPlayerScore - _addrespect;
@@ -16,10 +16,11 @@ if (_itemToLookFor in (uniformItems player)) then {
 
 			uisleep 1;			
 				["Whoops",["-5 Exp"]] call ExileClient_gui_notification_event_addNotification;		
+			SET_QUEST2 = FALSE;
 	} else {
-		playSound "anm";  
+		playSound "meat";  
 		uisleep 5;
-		_htext   = "You do not have jobs for the study of anomalies";
+		_htext   = "No jobs to the study of anomalies";
 		hint parseText ( _title + _htext);
                 ["Whoops",[_htext]] call ExileClient_gui_notification_event_addNotification;
 	};
