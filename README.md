@@ -242,4 +242,5 @@ And 3 stalker style anomlay Gravi, Meat Grinder and Fire the fluff..
 	};
 	// ---------------------------------------- END INSERT THIS ------------------------------------------------------------------
 	// BEFORE class Markers
-	9) This ALL
+	9) WARNING!!!! AFTER ALL goto to  https://github.com/happydayz-enigma/Enigma_Exile_Custom and copy Enigma_Exile_Custom.pbo to 	you @ExileServer/Addons/ folder!!! need for datebase save;
+	10) This ALL
