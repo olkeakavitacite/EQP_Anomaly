@@ -237,3 +237,5 @@ class Sensors
 // Так чтобы он уперся в начала класса Markers.. 
 9) Копируем для руссфикации (если надо) повех с заменой файлы из EQP_Anomaly_RUS в EQP_Anomaly 
 10) Идем в папку EQP_Anomaly_RUS и делаем как написано во вложенном файле Readme.txt
+11) САМОЕ ГЛАВНОЕ НЕ ЗАБЫТЬ ИДЕМ СЮДА https://github.com/happydayz-enigma/Enigma_Exile_Custom
+И делаем как говорят т.е. копируем .pbo в папку с вашим @ExileServer/Addons/ ибо без этого аддона с клиентской части ничего писаться не будет.
