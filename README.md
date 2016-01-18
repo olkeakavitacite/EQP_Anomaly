@@ -67,10 +67,10 @@ Installation:
 		titles[] = {};
 	};
 
-/////// IF YOU HAVE CfgSound block INSERT this
-};
-////////////////////////////////////////  INSERT IF ANYWERE IN YOU NOT HAVE CfgSounds in DESCRIPTION
-// TO  #include "config.cpp"
+	/////// IF YOU HAVE CfgSound block INSERT this
+	};
+	////////////////////////////////////////  INSERT IF ANYWERE IN YOU NOT HAVE CfgSounds in DESCRIPTION
+	// TO  #include "config.cpp"
 
 	7) Change you init.sqf file to ->
 	open (or create if need) you init.sqf and add to the top.
@@ -80,7 +80,7 @@ Installation:
 	SET_QUEST2 = FALSE;
 	SET_QUEST3 = FALSE;
 
-8) Chage you mission.sqm  GOTO LINE 1034 
+	8) Chage you mission.sqm  GOTO LINE 1034 
 				class Item99
 				{
 					position[]={13239.08,16.010651,11685.795};
@@ -94,9 +94,9 @@ Installation:
 			};
 		};
 	};
-// AND ADD AFTER LAST ;)
-// ------------------------------------------ START INSERT THIS CODE------------------------------------------------------------
-//TODO NPC BLOCK FOR ANOMALY ACTIVITY QUEST
+	// AND ADD AFTER LAST ;)
+	//--------------------------------------- START INSERT THIS CODE------------------------------------------------------------
+	//TODO NPC BLOCK FOR ANOMALY ACTIVITY QUEST
 		class Vehicles
 		{
 			items=3;
@@ -131,7 +131,7 @@ Installation:
 			vehicle="B_Soldier_F";
 			leader=1;
 			skill=0.60000002;
-			init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this; comment ""Add containers"";  this addHeadgear ""H_HelmetCrew_I"";  comment ""Add weapons"";  this addWeapon ""srifle_DMR_04_Tan_F"";  this addPrimaryWeaponItem ""acc_flashlight"";  this addPrimaryWeaponItem ""optic_KHS_tan"";  this addPrimaryWeaponItem ""bipod_02_F_tan"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""muzzle_snds_acp"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Laserdesignator_02"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP""; this addAction [""<t color='#068600'>ANOMALY ACTIVITY QUEST</t>"",""EQP_Anomaly\quest3.sqf""];";
+			init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this; comment ""Add containers"";  this 	addHeadgear ""H_HelmetCrew_I"";  comment ""Add weapons"";  this addWeapon ""srifle_DMR_04_Tan_F"";  this addPrimaryWeaponItem ""acc_flashlight"";  this addPrimaryWeaponItem ""optic_KHS_tan"";  this addPrimaryWeaponItem ""bipod_02_F_tan"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""muzzle_snds_acp"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Laserdesignator_02"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP""; this addAction [""<t color='#068600'>ANOMALY ACTIVITY QUEST</t>"",""EQP_Anomaly\quest3.sqf""];";
 		};
 	};
 	class Sensors
@@ -231,6 +231,6 @@ Installation:
 			};
 		};
 	};
-// ------------------------------------------ END INSERT THIS ------------------------------------------------------------------
-// BEFORE class Markers
-9) This ALL
+	// ---------------------------------------- END INSERT THIS ------------------------------------------------------------------
+	// BEFORE class Markers
+	9) This ALL
