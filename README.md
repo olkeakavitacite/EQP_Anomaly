@@ -75,7 +75,7 @@ Installation:
 	7) Change you init.sqf file to ->
 	open (or create if need) you init.sqf and add to the top.
 
-	// Set Anomaly Activity check
+	// Set Anomaly Activity check 
 	SET_QUEST1 = FALSE;
 	SET_QUEST2 = FALSE;
 	SET_QUEST3 = FALSE;
