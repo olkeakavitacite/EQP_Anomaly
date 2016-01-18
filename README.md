@@ -7,12 +7,16 @@ And 3 stalker style anomlay Gravi, Meat Grinder and Fire the fluff..
 		"Exile_Item_Magazine01"; // For Boris Britva :)
 	and sound pack file https://yadi.sk/d/f7NcLeHznHLcx
 
-	CHANGE LOG 1.8 (18.01.2016)
+	CHANGE LOG 1.81 (18.01.2016)
+	
 	1)  Added check to the fact of taking the quest ( to avoid dupe by car );
 	2)  Adding anomaly sound pack (not inside need download https://yadi.sk/d/f7NcLeHznHLcx;
 	3)  Fixing small bug and folder arh;
 	4)  Starting second quest brucnh;
-	5)  Fixing quest balance;
+	5)  Adding config in init.sqf
+	6)  on/off Markers on global map for locate quest npc;
+	7)  Fixing quest balance;
+	
 
 	Installation:
 
