@@ -1,20 +1,20 @@
 # EQP_Anomaly ver 1.8.0 [TEST.RELEASE] 18.01.2016 23:46 GMT+6
-About: Exile RPG Stalker style project Credits Free for all use in Exilemod.com. Spawn 3 quest npc in Aero safezone (Basil Obuhov) step 1 quest, and East safezone (Ivan Demidov) step 2 quest, and West Safezone (Boris Britva) step 3 quest;
+	About: Exile RPG Stalker style project Credits Free for all use in Exilemod.com. Spawn 3 quest npc in Aero safezone (Basil 	Obuhov) step 1 quest, and East safezone (Ivan Demidov) step 2 quest, and West Safezone (Boris Britva) step 3 quest;
 And 3 stalker style anomlay Gravi, Meat Grinder and Fire the fluff..
-Quest Item: 
-"MineDetector"; // For detect anomaly
-"Exile_Item_TreasureMap"; // For fix anomaly
-"Exile_Item_Magazine01"; // For Boris Britva :)
-and sound pack file https://yadi.sk/d/f7NcLeHznHLcx
+	Quest Item: 
+		"MineDetector"; // For detect anomaly
+		"Exile_Item_TreasureMap"; // For fix anomaly
+		"Exile_Item_Magazine01"; // For Boris Britva :)
+	and sound pack file https://yadi.sk/d/f7NcLeHznHLcx
 
-CHANGE LOG 1.8 (18.01.2016)
+	CHANGE LOG 1.8 (18.01.2016)
 	1)  Added check to the fact of taking the quest ( to avoid dupe by car );
 	2)  Adding anomaly sound pack (not inside need download https://yadi.sk/d/f7NcLeHznHLcx;
 	3)  Fixing small bug and folder arh;
 	4)  Starting second quest brucnh;
 	5)  Fixing quest balance;
 
-Installation:
+	Installation:
 
 	1) Soft Need: pbomanager, notepad++ or farmanager
 	2) You need: 
