@@ -1,6 +1,7 @@
-# EQP_Anomaly ver 1.8.0 [TEST.RELEASE] 18.01.2016 23:46 GMT+6
-	About: Exile RPG Stalker style project Credits Free for all use in Exilemod.com. Spawn 3 quest npc in Aero safezone (Basil 	Obuhov) step 1 quest, and East safezone (Ivan Demidov) step 2 quest, and West Safezone (Boris Britva) step 3 quest;
-And 3 stalker style anomlay Gravi, Meat Grinder and Fire the fluff..
+	# EQP_Anomaly ver 1.8.0 [TEST.RELEASE] 18.01.2016 23:46 GMT+6
+	
+	About: Exile RPG Stalker style project Credits Free for all use in Exilemod.com. Spawn 3 quest npc in Aero safezone (Basil 		Obuhov) step 1 quest, and East safezone (Ivan Demidov) step 2 quest, and West Safezone (Boris Britva) step 3 quest;
+	And 3 stalker style anomlay Gravi, Meat Grinder and Fire the fluff..
 	Quest Item: 
 		"MineDetector"; // For detect anomaly
 		"Exile_Item_TreasureMap"; // For fix anomaly
